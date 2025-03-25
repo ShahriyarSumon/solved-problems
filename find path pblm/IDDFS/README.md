@@ -14,6 +14,7 @@ This project implements the **Iterative Deepening Depth-First Search (IDDFS)** a
    ```bash
    git clone https://github.com/yourusername/iddfs-maze-solver.git
    cd iddfs-maze-solver
+   
 Usage
 Prepare a maze:
 
@@ -27,15 +28,11 @@ The start and goal points are represented by specific coordinates.
 
 Run the IDDFS solver:
 
-The Python script iddfs_solver.py contains the main logic. You can run it from the terminal:
-python iddfs_solver.py
+The Python script iddfs_solver.py contains the main logic.
+You can run it from the terminal:
 
-Output:
-
-The program will output the shortest path from the start to the goal, if a solution exists.
-
-If no solution is found, it will print a message indicating the goal is unreachable.
-
+ git clone https://github.com/yourusername/iddfs-maze-solver.git
+   cd iddfs-maze-solver
 Results and Discussion
 The IDDFS algorithm successfully finds the shortest path in most test cases, with the added benefit of being memory-efficient compared to BFS. However, the time complexity increases as the depth of the solution increases, due to the repeated exploration of nodes at each depth level. The algorithm performs better in terms of memory usage, as it avoids storing large amounts of nodes like BFS does. Despite the increased computational cost, IDDFS is a solid choice for solving mazes, especially when memory is a critical constraint.
 
@@ -62,3 +59,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 3. **Paste the content** into the `README.md` file and save it.
 
 This README provides all the necessary information for users and contributors to understand the project, set it up, and contribute effectively. Let me know if you'd like any further adjustments!
+
+
