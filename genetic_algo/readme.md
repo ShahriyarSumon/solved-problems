@@ -41,5 +41,7 @@ python main.py
 📁 genetic-algorithm-product
 ├── main.py        ← main program code
 └── README.md      ← this file
+
+🙋‍♂️ Author
 Shahriyar Sumon
 👨‍🎓 CSE Student | Loves AI, Algorithms & Creative Ideas
